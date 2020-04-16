@@ -1,3 +1,3 @@
-import ObjectReview from 'ObjectReview/ObjectReview';
+import ObjectReview from './ObjectReview/ObjectReview';
 
 export default { ObjectReview };

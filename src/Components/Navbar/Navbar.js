@@ -39,28 +39,7 @@ const Navbar = () => {
   return (
     <Router>
       <div className="navbar-component">
-        <AppBar
-          position="fixed"
-          className={clsx(classes.appBar, {
-            [classes.appBarShift]: open,
-          })}
-        >
-          <Toolbar>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              onClick={handleDrawerOpen}
-              edge="start"
-              className={clsx(classes.menuButton, open && classes.hide)}
-            >
-              <MenuIcon />
-            </IconButton>
-            <Typography variant="h6" noWrap>
-              {`location name`}
-            </Typography>
-          </Toolbar>
-        </AppBar>
-        <Drawer
+         <Drawer
           variant="permanent"
           className={clsx(classes.drawer, {
             [classes.drawerOpen]: open,
@@ -74,13 +53,7 @@ const Navbar = () => {
           }}
         >
           <div className={classes.toolbar}>
-            <IconButton onClick={handleDrawerClose}>
-              {theme.direction === 'rtl' ? (
-                <ChevronRightIcon />
-              ) : (
-                <ChevronLeftIcon />
-              )}
-            </IconButton>
+            {renderButton({handleDrawerOpen, handleDrawerClose, isOpen: open, classes,theme})}
           </div>
           <Divider />
           <List>
@@ -131,6 +104,31 @@ const Navbar = () => {
     </Router>
   );
 };
+
+const renderButton = ({isOpen, handleDrawerClose, handleDrawerOpen, classes,theme }) => {
+  if(isOpen){
+    return(
+<IconButton onClick={handleDrawerClose} className={clsx(classes.menuButton)}>
+              {theme.direction === 'rtl' ? (
+                <ChevronRightIcon />
+              ) : (
+                <ChevronLeftIcon />
+              )}
+            </IconButton>
+    )
+  }
+  return(
+<IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="start"
+              className={clsx(classes.menuButton)}
+            >
+              <MenuIcon />
+            </IconButton>
+  )
+}
 
 const useStyles = makeStyles(theme => ({
   root: {
