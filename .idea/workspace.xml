@@ -1,9 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b39c9c77-b665-4c0c-84ed-65c00497bd6b" name="Default Changelist" comment="- initial commit&#10;- add router and material UI navbar">
+      <change afterPath="$PROJECT_DIR$/src/Pages/AutomaticExtinguishers/AutomaticExtinguishers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/AutomaticExtinguishers/AutomaticExtinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Documents/Documents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Documents/Documents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Extinguishers/Extinguishers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Extinguishers/Extinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/FireShield/FireShield.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/FireShield/FireShield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Incidents/Incidents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Incidents/Incidents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Personal/Personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Personal/Personal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/automaticExtinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/documents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/extinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/fireShield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/incidents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/personal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/automaticExtinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/documents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/extinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/fireShield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/incidents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/personal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/automaticExtinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/documents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/extinguishers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/fireShield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/incidents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/Table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ObjectReview/ObjectReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ObjectReview/ObjectReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/outside/outsideRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/outside/outsideRequests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/objectReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/objectReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/objectReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/objectReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1aUnslrlQA3dooULNeUro0MO6Fn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/types" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/types" />
+      <recent name="$PROJECT_DIR$/src/store/reducers" />
+      <recent name="$PROJECT_DIR$/src/store/actions" />
+      <recent name="$PROJECT_DIR$/src/Pages" />
+      <recent name="$PROJECT_DIR$/src/Pages/Incidents" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Pages/Home" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b39c9c77-b665-4c0c-84ed-65c00497bd6b" name="Default Changelist" comment="" />
+      <created>1586799248450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586799248450</updated>
+      <workItem from="1586799249884" duration="3089000" />
+      <workItem from="1586802466991" duration="6319000" />
+      <workItem from="1587048585915" duration="19075000" />
+    </task>
+    <task id="LOCAL-00001" summary="- initial commit&#10;- add router and material UI navbar">
+      <created>1586808476813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586808476813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- initial commit&#10;- add router and material UI navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="- initial commit&#10;- add router and material UI navbar" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="719" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586801632791">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="719" y="339" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586801632791" />
+    <state x="531" y="55" key="CommitChangelistDialog2" timestamp="1586879332743">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="531" y="55" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586879332743" />
+    <state x="686" y="173" key="RollbackChangesDialog" timestamp="1586807198280">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="686" y="173" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586807198280" />
+    <state x="560" y="275" key="Vcs.Push.Dialog.v2" timestamp="1586808478919">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="275" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1586808478919" />
+    <state x="763" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587048786122">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="763" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587048786122" />
+    <state x="631" y="286" width="801" height="572" key="find.popup" timestamp="1587068509005">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="631" y="286" width="801" height="572" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587068509005" />
+    <state x="625" y="255" key="run.anything.popup" timestamp="1587058794585">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="255" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587058794585" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1587122122461">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587122122461" />
   </component>
 </project>

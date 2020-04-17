@@ -10,13 +10,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import makeStyles from '@material-ui/core/styles/makeStyles';
 import useTheme from '@material-ui/core/styles/useTheme';
-import Toolbar from '@material-ui/core/Toolbar';
-import AppBar from '@material-ui/core/AppBar';
-import Typography from '@material-ui/core/Typography';
 
 import NavbarRouter from '../../router';
 import './Navbar.css';
@@ -26,7 +22,7 @@ const drawerWidth = 240;
 const Navbar = () => {
   const classes = useStyles();
   const theme = useTheme();
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -39,7 +35,7 @@ const Navbar = () => {
   return (
     <Router>
       <div className="navbar-component">
-         <Drawer
+        <Drawer
           variant="permanent"
           className={clsx(classes.drawer, {
             [classes.drawerOpen]: open,
@@ -53,7 +49,13 @@ const Navbar = () => {
           }}
         >
           <div className={classes.toolbar}>
-            {renderButton({handleDrawerOpen, handleDrawerClose, isOpen: open, classes,theme})}
+            {renderButton({
+              handleDrawerOpen,
+              handleDrawerClose,
+              isOpen: open,
+              classes,
+              theme,
+            })}
           </div>
           <Divider />
           <List>
@@ -105,30 +107,35 @@ const Navbar = () => {
   );
 };
 
-const renderButton = ({isOpen, handleDrawerClose, handleDrawerOpen, classes,theme }) => {
-  if(isOpen){
-    return(
-<IconButton onClick={handleDrawerClose} className={clsx(classes.menuButton)}>
-              {theme.direction === 'rtl' ? (
-                <ChevronRightIcon />
-              ) : (
-                <ChevronLeftIcon />
-              )}
-            </IconButton>
-    )
+const renderButton = ({
+  isOpen,
+  handleDrawerClose,
+  handleDrawerOpen,
+  classes,
+  theme,
+}) => {
+  if (isOpen) {
+    return (
+      <IconButton
+        onClick={handleDrawerClose}
+        className={clsx(classes.menuButton)}
+      >
+        {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
+      </IconButton>
+    );
   }
-  return(
-<IconButton
-              color="inherit"
-              aria-label="open drawer"
-              onClick={handleDrawerOpen}
-              edge="start"
-              className={clsx(classes.menuButton)}
-            >
-              <MenuIcon />
-            </IconButton>
-  )
-}
+  return (
+    <IconButton
+      color="inherit"
+      aria-label="open drawer"
+      onClick={handleDrawerOpen}
+      edge="start"
+      className={clsx(classes.menuButton)}
+    >
+      <MenuIcon />
+    </IconButton>
+  );
+};
 
 const useStyles = makeStyles(theme => ({
   root: {

@@ -1,41 +1,41 @@
-import { getObjectReviewAPI, createObjectReviewAPI, updateObjectReviewAPI, deleteObjectReviewAPI } from '../../api';
+import {
+  getObjectReviewAPI,
+  createObjectReviewAPI,
+  updateObjectReviewAPI,
+  deleteObjectReviewAPI,
+} from '../../api';
 import _ from 'lodash';
-import { objectReviewActions } from '../types'
+import { objectReviewActions } from '../types';
 
-const getObjectReview =  (params = {}) => async dispatch => {
-  const responce = await getObjectReviewAPI(params)
+const getObjectReview = (params = {}) => async dispatch => {
+  const response = await getObjectReviewAPI(params);
   dispatch({
-      type: objectReviewActions.getObjectReview,
-      payload: responce,
+    type: objectReviewActions.setObjectReview,
+    payload: response,
   });
 };
 
 const setObjectReview = data => async dispatch => {
-  console.log(data);
-  const responce = await createObjectReviewAPI(data) 
+  const response = await createObjectReviewAPI(data);
   dispatch({
-      type: objectReviewActions.setObjectReview,
-      payload: responce,
+    type: objectReviewActions.setObjectReview,
+    payload: response,
   });
 };
 
 const updateObjectReview = params => async dispatch => {
-  const responce = await updateObjectReviewAPI(params)  
+  const response = await updateObjectReviewAPI(params);
   dispatch({
-      type: objectReviewActions.updateObjectReview,
-      payload: responce,
+    type: objectReviewActions.setObjectReview,
+    payload: response,
   });
 };
 
-const deleteObjectReview = params => async (dispatch, getState) => {
-  const responce = await deleteObjectReviewAPI(params)
-  const {objectReview} = getState().objectReview;
-  // _map(objectReview, (item) => {
-  //   if(item.)
-  // })
+const deleteObjectReview = params => async dispatch => {
+  const response = await deleteObjectReviewAPI(params);
   dispatch({
-      type: objectReviewActions.deleteObjectReview,
-      payload: responce,
+    type: objectReviewActions.setObjectReview,
+    payload: response,
   });
 };
 

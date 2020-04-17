@@ -1,13 +1,30 @@
-import {
-    getObjectReviewAPI,
-    createObjectReviewAPI,
-    updateObjectReviewAPI,
-    deleteObjectReviewAPI
-} from './outside/outsideRequests';
-
 export {
-    getObjectReviewAPI,
-    createObjectReviewAPI,
-    updateObjectReviewAPI,
-    deleteObjectReviewAPI
-};
+  getObjectReviewAPI,
+  createObjectReviewAPI,
+  updateObjectReviewAPI,
+  deleteObjectReviewAPI,
+  getPersonalAPI,
+  createPersonalAPI,
+  updatePersonalAPI,
+  deletePersonalAPI,
+  getIncidentsAPI,
+  createIncidentsAPI,
+  updateIncidentsAPI,
+  deleteIncidentsAPI,
+  getFireShieldAPI,
+  createFireShieldAPI,
+  updateFireShieldAPI,
+  deleteFireShieldAPI,
+  getExtinguishersAPI,
+  createExtinguishersAPI,
+  updateExtinguishersAPI,
+  deleteExtinguishersAPI,
+  getDocumentsAPI,
+  createDocumentsAPI,
+  updateDocumentsAPI,
+  deleteDocumentsAPI,
+  getAutomaticExtinguishersAPI,
+  createAutomaticExtinguishersAPI,
+  updateAutomaticExtinguishersAPI,
+  deleteAutomaticExtinguishersAPI,
+} from './outside/outsideRequests';

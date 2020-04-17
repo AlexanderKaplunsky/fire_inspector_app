@@ -1,0 +1,7 @@
+.personal-container {
+  display: flex;
+  flex: 1;
+  margin-left: 240px;
+  align-self: center;
+  margin-top: 64px;
+}

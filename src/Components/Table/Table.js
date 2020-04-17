@@ -2,11 +2,18 @@ import React, { useEffect } from 'react';
 import MaterialTable from 'material-table';
 import { ukUA } from '@material-ui/core/locale';
 
-const Table = ({data, columns, title, onRowAdd, onRowDelete, onRowUpdate}) => {
+const Table = ({
+  data,
+  columns,
+  title,
+  onRowAdd,
+  onRowDelete,
+  onRowUpdate,
+}) => {
   useEffect(() => {
-    setState({...state, data, columns})
-  },[data])
-  const [state, setState] = React.useState({data, columns});
+    setState({ ...state, data, columns });
+  }, [data]);
+  const [state, setState] = React.useState({ data, columns });
 
   return (
     <MaterialTable
@@ -15,21 +22,27 @@ const Table = ({data, columns, title, onRowAdd, onRowDelete, onRowUpdate}) => {
       columns={state.columns}
       data={state.data}
       editable={{
-        onRowAdd,
+        onRowAdd: newData =>
+          new Promise(resolve => {
+            setTimeout(() => {
+              resolve();
+              onRowAdd(newData);
+            }, 0);
+          }),
         onRowUpdate: (newData, oldData) =>
           new Promise(resolve => {
             setTimeout(() => {
               resolve();
-              if (oldData) {
-                setState(prevState => {
-                  const data = [...prevState.data];
-                  data[data.indexOf(oldData)] = newData;
-                  return { ...prevState, data };
-                });
-              }
-            }, 600);
+              onRowUpdate(newData);
+            }, 0);
           }),
-        onRowDelete
+        onRowDelete: oldData =>
+          new Promise(resolve => {
+            setTimeout(() => {
+              resolve();
+              onRowDelete(oldData);
+            }, 0);
+          }),
       }}
     />
   );
