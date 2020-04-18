@@ -1,7 +1,30 @@
 .home-container {
+  height: 100%;
+  width: 100%;
   display: flex;
-  flex: 1;
-  flex-direction: row;
+  background-image: url('../../resources/home-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container p{
+  z-index: 1;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  font-size: 40px;
+  letter-spacing: 1;
+  color: white;
+  margin-bottom: 0.5em;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+  border-bottom: 2px solid white;
+}
+
+
+.home-container p:nth-child(1) {
+  color: #ee2f80;
 }
 
 .side-menu {

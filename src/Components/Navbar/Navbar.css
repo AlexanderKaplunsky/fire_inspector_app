@@ -14,13 +14,15 @@
 .navbar-header-text-wrapper p {
   font-weight: bold;
   text-align: center;
-  font-size: 14px;
-  /*pa*/
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   color: white;
+  font-size: 1.2rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.00938em;
 }
 
 .navbar-control-text {
   color: white;
+  margin-left: 4px;
 }

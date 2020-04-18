@@ -8,11 +8,15 @@ import {
   Extinguishers,
   Documents,
   AutomaticExtinguishers,
+  Home
 } from '../Pages';
 
 const NavbarRouter = () => {
   return (
     <Switch>
+      <Route path="/home">
+        <Home />
+      </Route>
       <Route path="/object-review">
         <ObjectReview />
       </Route>

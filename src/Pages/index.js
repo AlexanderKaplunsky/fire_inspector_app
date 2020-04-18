@@ -5,6 +5,7 @@ import FireShield from './FireShield/FireShield';
 import Extinguishers from './Extinguishers/Extinguishers';
 import Documents from './Documents/Documents';
 import AutomaticExtinguishers from './AutomaticExtinguishers/AutomaticExtinguishers';
+import Home from './Home/Home';
 
 export {
   ObjectReview,
@@ -14,4 +15,5 @@ export {
   Extinguishers,
   Documents,
   AutomaticExtinguishers,
+  Home,
 };
