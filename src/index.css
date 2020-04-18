@@ -5,14 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.table-container {
   display: flex;
-  flex: 1;
-  margin-left: 240px;
-  align-self: center;
-  margin-top: 64px;
+  height: 100%;
+  width: 100%;
+}
+html, #root, #root>div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.table-container {
+  margin-top: 50px;
+  display: flex;
+  /*height: 100%;*/
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  /*margin-left: 240px;*/
 }
 
 code {

@@ -13,14 +13,26 @@ import {
 const NavbarRouter = () => {
   return (
     <Switch>
-      <Route path="/object-review">{<ObjectReview />}</Route>
-      <Route path="/personal">{<Personal />}</Route>
-      <Route path="/incidents">{<Incidents />}</Route>
-      <Route path="/fire_shield">{<FireShield />}</Route>
-      <Route path="/extinguishers">{<Extinguishers />}</Route>
-      <Route path="/documents">{<Documents />}</Route>
+      <Route path="/object-review">
+        <ObjectReview />
+      </Route>
+      <Route path="/personal">
+        <Personal />
+      </Route>
+      <Route path="/incidents">
+        <Incidents />
+      </Route>
+      <Route path="/fire_shield">
+        <FireShield />
+      </Route>
+      <Route path="/extinguishers">
+        <Extinguishers />
+      </Route>
+      <Route path="/documents">
+        <Documents />
+      </Route>
       <Route path="/automatic_extinguishing">
-        {<AutomaticExtinguishers />}
+        <AutomaticExtinguishers />
       </Route>
     </Switch>
   );
