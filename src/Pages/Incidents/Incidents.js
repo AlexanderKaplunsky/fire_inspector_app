@@ -37,8 +37,8 @@ const Incidents = ({
   };
 
   const handleDeleteObjectReview = async data => {
-    const { incident_date, reason } = data;
-    await deleteIncidents({ incident_date, reason });
+    const { incident_address, reason } = data;
+    await deleteIncidents({ incident_address, reason });
   };
 
   const handleUpdateObjectReview = async data => {

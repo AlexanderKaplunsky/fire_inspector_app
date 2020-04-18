@@ -44,8 +44,8 @@ const FireShield = ({
   };
 
   const handleDeleteObjectReview = async data => {
-    const { shield_verification_date, shield_class } = data;
-    await deleteFireShield({ shield_verification_date, shield_class });
+    const { extinguishing_material_volume, shield_class } = data;
+    await deleteFireShield({ extinguishing_material_volume, shield_class });
   };
 
   const handleUpdateObjectReview = async data => {
