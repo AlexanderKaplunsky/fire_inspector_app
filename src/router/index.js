@@ -8,7 +8,8 @@ import {
   Extinguishers,
   Documents,
   AutomaticExtinguishers,
-  Home
+  Home,
+  CustomSearch,
 } from '../Pages';
 
 const NavbarRouter = () => {
@@ -37,6 +38,9 @@ const NavbarRouter = () => {
       </Route>
       <Route path="/automatic_extinguishing">
         <AutomaticExtinguishers />
+      </Route>
+      <Route path="/custom_search">
+        <CustomSearch />
       </Route>
     </Switch>
   );

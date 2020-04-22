@@ -6,6 +6,7 @@ import Extinguishers from './Extinguishers/Extinguishers';
 import Documents from './Documents/Documents';
 import AutomaticExtinguishers from './AutomaticExtinguishers/AutomaticExtinguishers';
 import Home from './Home/Home';
+import CustomSearch from './CustomSearch/CustomSearch';
 
 export {
   ObjectReview,
@@ -16,4 +17,5 @@ export {
   Documents,
   AutomaticExtinguishers,
   Home,
+  CustomSearch,
 };

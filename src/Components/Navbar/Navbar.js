@@ -8,6 +8,7 @@ import FireplaceIcon from '@material-ui/icons/Fireplace';
 import DescriptionIcon from '@material-ui/icons/Description';
 import FlashAutoIcon from '@material-ui/icons/FlashAuto';
 import EmojiTransportationIcon from '@material-ui/icons/EmojiTransportation';
+import FindInPageIcon from '@material-ui/icons/FindInPage';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -83,12 +84,19 @@ const Navbar = () => {
           </ListItem>
         </Link>
         <Link to="/incidents">
-          <ListItem button key={`incidents`}>
+          <ListItem button key={`incidents`} divider>
             <EmojiTransportationIcon htmlColor={'white'} />
             <ListItemText
               primary={`Інциденти`}
               className={'navbar-control-text'}
             />
+          </ListItem>
+        </Link>
+        <Link to="/custom_search">
+          <ListItem button key={`custom_search`}>
+            <FindInPageIcon htmlColor={'white'}/>
+            <ListItemText primary={`Вибірковий пошук`}
+            className={'navbar-control-text'} />
           </ListItem>
         </Link>
       </List>
