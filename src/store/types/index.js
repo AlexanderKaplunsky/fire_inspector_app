@@ -5,3 +5,4 @@ export { fireShieldActions } from './fireShield';
 export { extinguishersActions } from './extinguishers';
 export { documentsActions } from './documents';
 export { automaticExtinguishersActions } from './automaticExtinguishers';
+export { customSearchActions } from './customSearch';

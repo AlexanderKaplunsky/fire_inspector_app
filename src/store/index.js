@@ -8,6 +8,7 @@ import {
   extinguishers,
   documents,
   automaticExtinguishers,
+  customSearch,
 } from './reducers';
 
 const middleware = [thunk];
@@ -20,6 +21,7 @@ const reducers = combineReducers({
   extinguishers,
   documents,
   automaticExtinguishers,
+  customSearch,
 });
 
 export const store = createStore(reducers, applyMiddleware(...middleware));

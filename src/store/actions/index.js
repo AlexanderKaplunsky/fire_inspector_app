@@ -47,6 +47,8 @@ import {
   deleteAutomaticExtinguishers,
 } from './automaticExtinguishers';
 
+import { makeSearch } from './customSearch';
+
 export {
   getObjectReview,
   setObjectReview,
@@ -76,4 +78,5 @@ export {
   setAutomaticExtinguishers,
   updateAutomaticExtinguishers,
   deleteAutomaticExtinguishers,
+  makeSearch,
 };

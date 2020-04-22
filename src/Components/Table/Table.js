@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import MaterialTable from 'material-table';
-import { ukUA } from '@material-ui/core/locale';
-import { string } from 'prop-types';
 
 const Table = ({
   data,

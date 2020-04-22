@@ -27,4 +27,5 @@ export {
   createAutomaticExtinguishersAPI,
   updateAutomaticExtinguishersAPI,
   deleteAutomaticExtinguishersAPI,
+  getCustomTableAPI,
 } from './outside/outsideRequests';

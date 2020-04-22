@@ -171,6 +171,14 @@ const deleteAutomaticExtinguishersAPI = async body => {
   return result.data;
 };
 
+const getCustomTableAPI = async (tableName, body) => {
+  const result = await AxiosInstance.post(
+    `${config.BASE}search_${tableName}/`,
+    body,
+  );
+  return result.data;
+};
+
 export {
   getObjectReviewAPI,
   createObjectReviewAPI,
@@ -200,4 +208,5 @@ export {
   createAutomaticExtinguishersAPI,
   updateAutomaticExtinguishersAPI,
   deleteAutomaticExtinguishersAPI,
+  getCustomTableAPI,
 };

@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b39c9c77-b665-4c0c-84ed-65c00497bd6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/actions/customSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/customSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types/customSearch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/outside/outsideRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/outside/outsideRequests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +99,8 @@
       <workItem from="1586799249884" duration="3089000" />
       <workItem from="1586802466991" duration="6319000" />
       <workItem from="1587048585915" duration="21128000" />
-      <workItem from="1587128293089" duration="4515000" />
+      <workItem from="1587128293089" duration="4557000" />
+      <workItem from="1587576367901" duration="8885000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit&#10;- add router and material UI navbar">
       <created>1586808476813</created>
@@ -108,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587124661073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- add localization">
+      <created>1587213915611</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587213915611</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,30 +132,32 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- initial commit&#10;- add router and material UI navbar" />
     <MESSAGE value="- add all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add all pages" />
+    <MESSAGE value="- add localization" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add localization" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586801632791">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="719" y="339" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586801632791" />
-    <state x="531" y="23" width="857" height="983" key="CommitChangelistDialog2" timestamp="1587124660794">
-      <screen x="0" y="23" width="1920" height="983" />
+    <state x="531" y="55" width="857" height="983" key="CommitChangelistDialog2" timestamp="1587213915290">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="531" y="55" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586879332743" />
+    <state x="531" y="55" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587213915290" />
     <state x="531" y="23" width="857" height="983" key="CommitChangelistDialog2/0.23.1920.983@0.23.1920.983" timestamp="1587124660794" />
     <state x="686" y="173" key="RollbackChangesDialog" timestamp="1586807198280">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="686" y="173" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586807198280" />
-    <state x="560" y="275" key="Vcs.Push.Dialog.v2" timestamp="1587124666493">
+    <state x="560" y="275" key="Vcs.Push.Dialog.v2" timestamp="1587213918776">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="275" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587124666493" />
-    <state x="763" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587048786122">
+    <state x="560" y="275" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587213918776" />
+    <state x="763" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587576518621">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="763" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587048786122" />
+    <state x="763" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1587576518621" />
+    <state x="763" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.983@0.23.1920.983" timestamp="1587576392951" />
     <state x="631" y="286" width="801" height="572" key="find.popup" timestamp="1587205007224">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -149,9 +166,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="625" y="255" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587058794585" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1587122122461">
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1587577612111">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587122122461" />
+    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1587577612111" />
   </component>
 </project>
