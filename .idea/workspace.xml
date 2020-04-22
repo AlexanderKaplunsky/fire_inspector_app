@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b39c9c77-b665-4c0c-84ed-65c00497bd6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/actions/customSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/customSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/types/customSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Table/Table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/CustomSearch/CustomSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/outside/outsideRequests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/outside/outsideRequests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +86,7 @@
       <workItem from="1586802466991" duration="6319000" />
       <workItem from="1587048585915" duration="21128000" />
       <workItem from="1587128293089" duration="4557000" />
-      <workItem from="1587576367901" duration="8885000" />
+      <workItem from="1587576367901" duration="9048000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit&#10;- add router and material UI navbar">
       <created>1586808476813</created>
@@ -123,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587213915611</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- pre-final">
+      <created>1587586160018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587586160018</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +126,18 @@
     <MESSAGE value="- initial commit&#10;- add router and material UI navbar" />
     <MESSAGE value="- add all pages" />
     <MESSAGE value="- add localization" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add localization" />
+    <MESSAGE value="- pre-final" />
+    <option name="LAST_COMMIT_MESSAGE" value="- pre-final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="719" y="339" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586801632791">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="719" y="339" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586801632791" />
-    <state x="531" y="55" width="857" height="983" key="CommitChangelistDialog2" timestamp="1587213915290">
+    <state x="531" y="55" width="857" height="983" key="CommitChangelistDialog2" timestamp="1587586159709">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="531" y="55" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587213915290" />
+    <state x="531" y="55" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1587586159709" />
     <state x="531" y="23" width="857" height="983" key="CommitChangelistDialog2/0.23.1920.983@0.23.1920.983" timestamp="1587124660794" />
     <state x="686" y="173" key="RollbackChangesDialog" timestamp="1586807198280">
       <screen x="0" y="0" width="1920" height="1080" />
