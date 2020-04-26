@@ -22,7 +22,7 @@ const Navbar = () => {
         <p>інспектор</p>
       </div>
       <List>
-        <Link to="/home">
+        <Link to="/">
           <ListItem button key={`home`} divider>
             <HomeIcon htmlColor={'white'}/>
             <ListItemText primary={`Головна`}

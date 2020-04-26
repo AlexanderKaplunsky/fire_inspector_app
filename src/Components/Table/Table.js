@@ -40,6 +40,8 @@ const Table = ({
       options={{
         paging: false,
       }}
+      fixedHeader
+      style={{ display: 'flex', flex: 1, flexDirection: 'column'}}
       localization={localization}
       title={title}
       columns={state.columns}

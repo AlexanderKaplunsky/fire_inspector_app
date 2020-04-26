@@ -244,12 +244,18 @@ const defineColumns = selectedTable => {
       renderFields = [
         { title: "Власник об'єкта", field: 'object_owner' },
         { title: 'Тип закладу', field: 'institution_type' },
+        { title: "Назва об'єкту", field: "object_name"},
         { title: 'Кількість робітників', field: 'worker_amount' },
         { title: 'Коментар', field: 'comment' },
         { title: 'Місто', field: 'city' },
         { title: 'Адреса', field: 'address' },
         { title: 'Дата перевірки', field: 'review_date', type: 'date' },
         { title: 'Статус перевірки', field: 'review_status' },
+        { title: 'Тип системи пожежогасіння', field: 'extinguishing_system'},
+        { title: 'Матеріали будівлі', field: 'build_materials'},
+        { title: 'Площа будівлі', field: 'build_area'},
+        { title: 'Кількість пожежних виходів', field: 'fire_exit_count'},
+        { title: 'Кількість поверхів', field: 'floor_count'},
       ];
       break;
   }
